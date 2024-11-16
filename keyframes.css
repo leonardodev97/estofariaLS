@@ -1,0 +1,26 @@
+
+
+
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 4s;
+    transform: translateX(-100%);
+}
+
+.show{
+    opacity: 1;
+    transition: all 4s;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
